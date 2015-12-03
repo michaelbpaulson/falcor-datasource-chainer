@@ -9,7 +9,8 @@
   "scripts": {
     "test": "mocha test/index.js",
     "build": "gulp build",
-    "dist": "gulp dist"
+    "dist": "gulp dist",
+    "produce-artifact": "gulp build:dist"
   },
   "repository": {
     "type": "git",
